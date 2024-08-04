@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC191CC62C3DE07E0078F410 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC191CC52C3DE07E0078F410 /* SwiftUIView.swift */; };
+		DC191CC82C3E90FB0078F410 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC191CC72C3E90FB0078F410 /* MessageView.swift */; };
+		DC191CCA2C3E911E0078F410 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC191CC92C3E911E0078F410 /* MessageCell.swift */; };
+		DC191CCC2C3E95900078F410 /* AILogo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC191CCB2C3E95900078F410 /* AILogo.swift */; };
+		DC68158B2C5F92CC009C03C9 /* DelightAI in Frameworks */ = {isa = PBXBuildFile; productRef = DC68158A2C5F92CC009C03C9 /* DelightAI */; };
+		DC92B6102C361E6700CB24C8 /* DelightAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC92B60F2C361E6700CB24C8 /* DelightAIApp.swift */; };
+		DC92B6122C361E6700CB24C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC92B6112C361E6700CB24C8 /* ContentView.swift */; };
+		DC92B6142C361E6800CB24C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC92B6132C361E6800CB24C8 /* Assets.xcassets */; };
+		DC92B6172C361E6800CB24C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC92B6162C361E6800CB24C8 /* Preview Assets.xcassets */; };
+		DC92B6212C361E6800CB24C8 /* DelightAIAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC92B6202C361E6800CB24C8 /* DelightAIAppTests.swift */; };
+		DC92B62B2C361E6800CB24C8 /* DelightAIAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC92B62A2C361E6800CB24C8 /* DelightAIAppUITests.swift */; };
+		DC92B62D2C361E6800CB24C8 /* DelightAIAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC92B62C2C361E6800CB24C8 /* DelightAIAppUITestsLaunchTests.swift */; };
+		DC92B63F2C3622E300CB24C8 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC92B63E2C3622E300CB24C8 /* ContentViewModel.swift */; };
+		DC95660F2C3FE513000EA3C8 /* DelightAI in Frameworks */ = {isa = PBXBuildFile; productRef = DC95660E2C3FE513000EA3C8 /* DelightAI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC92B61D2C361E6800CB24C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC92B6042C361E6700CB24C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC92B60B2C361E6700CB24C8;
+			remoteInfo = DelightAIApp;
+		};
+		DC92B6272C361E6800CB24C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC92B6042C361E6700CB24C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC92B60B2C361E6700CB24C8;
+			remoteInfo = DelightAIApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC191CC52C3DE07E0078F410 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		DC191CC72C3E90FB0078F410 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		DC191CC92C3E911E0078F410 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		DC191CCB2C3E95900078F410 /* AILogo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AILogo.swift; sourceTree = "<group>"; };
+		DC92B60C2C361E6700CB24C8 /* DelightAIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelightAIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC92B60F2C361E6700CB24C8 /* DelightAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelightAIApp.swift; sourceTree = "<group>"; };
+		DC92B6112C361E6700CB24C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC92B6132C361E6800CB24C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC92B6162C361E6800CB24C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC92B61C2C361E6800CB24C8 /* DelightAIAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelightAIAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC92B6202C361E6800CB24C8 /* DelightAIAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelightAIAppTests.swift; sourceTree = "<group>"; };
+		DC92B6262C361E6800CB24C8 /* DelightAIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelightAIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC92B62A2C361E6800CB24C8 /* DelightAIAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelightAIAppUITests.swift; sourceTree = "<group>"; };
+		DC92B62C2C361E6800CB24C8 /* DelightAIAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelightAIAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DC92B63E2C3622E300CB24C8 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC92B6092C361E6700CB24C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC68158B2C5F92CC009C03C9 /* DelightAI in Frameworks */,
+				DC95660F2C3FE513000EA3C8 /* DelightAI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC92B6192C361E6800CB24C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC92B6232C361E6800CB24C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC92B6032C361E6700CB24C8 = {
+			isa = PBXGroup;
+			children = (
+				DC92B60E2C361E6700CB24C8 /* DelightAIApp */,
+				DC92B61F2C361E6800CB24C8 /* DelightAIAppTests */,
+				DC92B6292C361E6800CB24C8 /* DelightAIAppUITests */,
+				DC92B60D2C361E6700CB24C8 /* Products */,
+				DC92B6392C36220800CB24C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DC92B60D2C361E6700CB24C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC92B60C2C361E6700CB24C8 /* DelightAIApp.app */,
+				DC92B61C2C361E6800CB24C8 /* DelightAIAppTests.xctest */,
+				DC92B6262C361E6800CB24C8 /* DelightAIAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC92B60E2C361E6700CB24C8 /* DelightAIApp */ = {
+			isa = PBXGroup;
+			children = (
+				DC92B60F2C361E6700CB24C8 /* DelightAIApp.swift */,
+				DC92B6112C361E6700CB24C8 /* ContentView.swift */,
+				DC92B6132C361E6800CB24C8 /* Assets.xcassets */,
+				DC92B6152C361E6800CB24C8 /* Preview Content */,
+				DC92B63E2C3622E300CB24C8 /* ContentViewModel.swift */,
+				DC191CC52C3DE07E0078F410 /* SwiftUIView.swift */,
+				DC191CC72C3E90FB0078F410 /* MessageView.swift */,
+				DC191CC92C3E911E0078F410 /* MessageCell.swift */,
+				DC191CCB2C3E95900078F410 /* AILogo.swift */,
+			);
+			path = DelightAIApp;
+			sourceTree = "<group>";
+		};
+		DC92B6152C361E6800CB24C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC92B6162C361E6800CB24C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC92B61F2C361E6800CB24C8 /* DelightAIAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC92B6202C361E6800CB24C8 /* DelightAIAppTests.swift */,
+			);
+			path = DelightAIAppTests;
+			sourceTree = "<group>";
+		};
+		DC92B6292C361E6800CB24C8 /* DelightAIAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC92B62A2C361E6800CB24C8 /* DelightAIAppUITests.swift */,
+				DC92B62C2C361E6800CB24C8 /* DelightAIAppUITestsLaunchTests.swift */,
+			);
+			path = DelightAIAppUITests;
+			sourceTree = "<group>";
+		};
+		DC92B6392C36220800CB24C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC92B60B2C361E6700CB24C8 /* DelightAIApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC92B6302C361E6800CB24C8 /* Build configuration list for PBXNativeTarget "DelightAIApp" */;
+			buildPhases = (
+				DC92B6082C361E6700CB24C8 /* Sources */,
+				DC92B6092C361E6700CB24C8 /* Frameworks */,
+				DC92B60A2C361E6700CB24C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DelightAIApp;
+			packageProductDependencies = (
+				DC95660E2C3FE513000EA3C8 /* DelightAI */,
+				DC68158A2C5F92CC009C03C9 /* DelightAI */,
+			);
+			productName = DelightAIApp;
+			productReference = DC92B60C2C361E6700CB24C8 /* DelightAIApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC92B61B2C361E6800CB24C8 /* DelightAIAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC92B6332C361E6800CB24C8 /* Build configuration list for PBXNativeTarget "DelightAIAppTests" */;
+			buildPhases = (
+				DC92B6182C361E6800CB24C8 /* Sources */,
+				DC92B6192C361E6800CB24C8 /* Frameworks */,
+				DC92B61A2C361E6800CB24C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC92B61E2C361E6800CB24C8 /* PBXTargetDependency */,
+			);
+			name = DelightAIAppTests;
+			productName = DelightAIAppTests;
+			productReference = DC92B61C2C361E6800CB24C8 /* DelightAIAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC92B6252C361E6800CB24C8 /* DelightAIAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC92B6362C361E6800CB24C8 /* Build configuration list for PBXNativeTarget "DelightAIAppUITests" */;
+			buildPhases = (
+				DC92B6222C361E6800CB24C8 /* Sources */,
+				DC92B6232C361E6800CB24C8 /* Frameworks */,
+				DC92B6242C361E6800CB24C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC92B6282C361E6800CB24C8 /* PBXTargetDependency */,
+			);
+			name = DelightAIAppUITests;
+			productName = DelightAIAppUITests;
+			productReference = DC92B6262C361E6800CB24C8 /* DelightAIAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC92B6042C361E6700CB24C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DC92B60B2C361E6700CB24C8 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DC92B61B2C361E6800CB24C8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DC92B60B2C361E6700CB24C8;
+					};
+					DC92B6252C361E6800CB24C8 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DC92B60B2C361E6700CB24C8;
+					};
+				};
+			};
+			buildConfigurationList = DC92B6072C361E6700CB24C8 /* Build configuration list for PBXProject "DelightAIApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC92B6032C361E6700CB24C8;
+			packageReferences = (
+				DC6815892C5F92CC009C03C9 /* XCRemoteSwiftPackageReference "DelightAI-iOS" */,
+			);
+			productRefGroup = DC92B60D2C361E6700CB24C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC92B60B2C361E6700CB24C8 /* DelightAIApp */,
+				DC92B61B2C361E6800CB24C8 /* DelightAIAppTests */,
+				DC92B6252C361E6800CB24C8 /* DelightAIAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC92B60A2C361E6700CB24C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC92B6172C361E6800CB24C8 /* Preview Assets.xcassets in Resources */,
+				DC92B6142C361E6800CB24C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC92B61A2C361E6800CB24C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC92B6242C361E6800CB24C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC92B6082C361E6700CB24C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC92B6122C361E6700CB24C8 /* ContentView.swift in Sources */,
+				DC191CCC2C3E95900078F410 /* AILogo.swift in Sources */,
+				DC92B6102C361E6700CB24C8 /* DelightAIApp.swift in Sources */,
+				DC191CC62C3DE07E0078F410 /* SwiftUIView.swift in Sources */,
+				DC92B63F2C3622E300CB24C8 /* ContentViewModel.swift in Sources */,
+				DC191CC82C3E90FB0078F410 /* MessageView.swift in Sources */,
+				DC191CCA2C3E911E0078F410 /* MessageCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC92B6182C361E6800CB24C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC92B6212C361E6800CB24C8 /* DelightAIAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC92B6222C361E6800CB24C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC92B62D2C361E6800CB24C8 /* DelightAIAppUITestsLaunchTests.swift in Sources */,
+				DC92B62B2C361E6800CB24C8 /* DelightAIAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC92B61E2C361E6800CB24C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC92B60B2C361E6700CB24C8 /* DelightAIApp */;
+			targetProxy = DC92B61D2C361E6800CB24C8 /* PBXContainerItemProxy */;
+		};
+		DC92B6282C361E6800CB24C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC92B60B2C361E6700CB24C8 /* DelightAIApp */;
+			targetProxy = DC92B6272C361E6800CB24C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC92B62E2C361E6800CB24C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC92B62F2C361E6800CB24C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC92B6312C361E6800CB24C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DelightAIApp/Preview Content\"";
+				DEVELOPMENT_TEAM = RQ6V2C8UPS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fyinnovate.DelightAIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC92B6322C361E6800CB24C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DelightAIApp/Preview Content\"";
+				DEVELOPMENT_TEAM = RQ6V2C8UPS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fyinnovate.DelightAIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC92B6342C361E6800CB24C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RQ6V2C8UPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fyinnovate.DelightAIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DelightAIApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DelightAIApp";
+			};
+			name = Debug;
+		};
+		DC92B6352C361E6800CB24C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RQ6V2C8UPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fyinnovate.DelightAIAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DelightAIApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DelightAIApp";
+			};
+			name = Release;
+		};
+		DC92B6372C361E6800CB24C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RQ6V2C8UPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fyinnovate.DelightAIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DelightAIApp;
+			};
+			name = Debug;
+		};
+		DC92B6382C361E6800CB24C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RQ6V2C8UPS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fyinnovate.DelightAIAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DelightAIApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC92B6072C361E6700CB24C8 /* Build configuration list for PBXProject "DelightAIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC92B62E2C361E6800CB24C8 /* Debug */,
+				DC92B62F2C361E6800CB24C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC92B6302C361E6800CB24C8 /* Build configuration list for PBXNativeTarget "DelightAIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC92B6312C361E6800CB24C8 /* Debug */,
+				DC92B6322C361E6800CB24C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC92B6332C361E6800CB24C8 /* Build configuration list for PBXNativeTarget "DelightAIAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC92B6342C361E6800CB24C8 /* Debug */,
+				DC92B6352C361E6800CB24C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC92B6362C361E6800CB24C8 /* Build configuration list for PBXNativeTarget "DelightAIAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC92B6372C361E6800CB24C8 /* Debug */,
+				DC92B6382C361E6800CB24C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DC6815892C5F92CC009C03C9 /* XCRemoteSwiftPackageReference "DelightAI-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/HungryFoolishHappy/DelightAI-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DC68158A2C5F92CC009C03C9 /* DelightAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DC6815892C5F92CC009C03C9 /* XCRemoteSwiftPackageReference "DelightAI-iOS" */;
+			productName = DelightAI;
+		};
+		DC95660E2C3FE513000EA3C8 /* DelightAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DelightAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DC92B6042C361E6700CB24C8 /* Project object */;
+}

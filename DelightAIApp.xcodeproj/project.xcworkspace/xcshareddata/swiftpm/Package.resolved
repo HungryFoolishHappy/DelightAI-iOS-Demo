@@ -1,0 +1,15 @@
+{
+  "originHash" : "82d027da81135058f798dfee54ff615ba31443f1bf6028a13ec8f929aa121e95",
+  "pins" : [
+    {
+      "identity" : "delightai-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/HungryFoolishHappy/DelightAI-iOS.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "b10fc2bd4c6353fe115822d15f7e7461e09dab6d"
+      }
+    }
+  ],
+  "version" : 3
+}
