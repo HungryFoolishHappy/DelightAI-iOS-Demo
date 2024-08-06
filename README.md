@@ -8,7 +8,7 @@ To try the demo app, simply open DelightAIApp.xcodeproj.
 
 Once the project is open, compile it on one of the simulators or a real device.
 
-https://github.com/user-attachments/assets/3306fa0d-fe81-4e6f-b7a3-da78de7adc76
+https://github.com/user-attachments/assets/11eed721-334b-4949-9d76-8ee4e50b9104
 
 ## Installation New Project
 
