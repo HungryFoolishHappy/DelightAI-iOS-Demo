@@ -25,10 +25,10 @@ final class ContentViewModel: ObservableObject {
             
             let delight = DelightAI()
             do {
-                let result = try await delight.sendChat(text: text,
-                                                    webhookId: webhookId,
-                                                    userId: userId,
-                                                    username: username)
+                let result = try await delight.sendChat(text: text, // text to DelightAI, usually user’s message or prompt
+                                                    webhookId: webhookId, // a demo webhook Id, you can use it for testing
+                                                    userId: userId, // id for this user in your app - completely your choice
+                                                    username: username) // username for this user in your app - completely your choice
                 
                 var isContinue = true
                 while(isContinue){
